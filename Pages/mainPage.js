@@ -23,8 +23,6 @@ module.exports = {
     statementField: '#tryitform',
     runSqlBtn: '[class*=ws-btn]',
 
-
-
     customersTablOpen() {
         I.seeElement(this.customersTabl)
         I.click(this.customersTabl)
