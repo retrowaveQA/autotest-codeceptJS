@@ -7,7 +7,7 @@ const standDomain = 'https://www.w3schools.com/sql/trysql.asp?filename=trysql_se
 
 
 const config = {
-  tests: './Cases/*_test.js',
+  tests: './cases/*_test.js',
   output: './output',
   helpers: {
     Playwright: {
