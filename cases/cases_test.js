@@ -1,5 +1,6 @@
 Feature('test task')
 
+
 const SQL1 = 'SELECT * FROM Customers';
 
 Scenario('task1', async ({ I, mainPage }) => {

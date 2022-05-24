@@ -1,3 +1,4 @@
+
 const {I} = inject();
 
 
@@ -6,6 +7,7 @@ module.exports = {
 
     resultTable: '[class*=ws-table-all]',
     runBtn: '[class*=ws-btn]',
+
     customersTabl: '//*[@id="yourDB"]/table/tbody/tr[2]/td[1]',
     customerID: '//*[@id="divResultSQL"]/div/table/tbody/tr[1]/th[1]',
     categoriesTabl: '//*[@id="yourDB"]/table/tbody/tr[3]/td[1]',
@@ -23,6 +25,7 @@ module.exports = {
     suppliersTabl: '//*[@id="yourDB"]/table/tbody/tr[9]/td[1]',
     supllierID: '//*[@id="divResultSQL"]/div/table/tbody/tr[1]/th[1]',
     restoreDataBaseBtn: '#restoreDBBtn',
+
     statementField: '#tryitform',
     runSqlBtn: '[class*=ws-btn]',
 
@@ -50,6 +53,7 @@ module.exports = {
 
     },
 
+
     customersTablOpen() {
         I.seeElement(this.customersTabl)
         I.click(this.customersTabl)
@@ -57,6 +61,7 @@ module.exports = {
     },
 
     categoriesTablOpen() {
+
         I.seeElement(this.categoriesTabl)
         I.click(this.categoriesTabl)
         I.seeElement(this.categoryID)
@@ -108,6 +113,7 @@ module.exports = {
 
     sqlBtn() {
         I.click(this.runSqlBtn)
+
     },
 
     restoreDataBase() {
