@@ -1,6 +1,6 @@
 const { setHeadlessWhen } = require('@codeceptjs/configure');
 
-const standDomain = 'https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all'
+const standDomain = 'https://demoqa.com/'
 
 
 const config = {
@@ -17,11 +17,14 @@ const config = {
   },
   include: {
     I: './steps_file.js',
-    mainPage: './pages/mainPage.js'
+    index: './pages/index.js'
   },
   bootstrap: null,
   mocha: {},
-  name: 'codeceptjs'
+  name: 'codeceptjs',
+  plugins: {
+
+  },
 
 };
 
