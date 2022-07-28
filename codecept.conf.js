@@ -17,13 +17,15 @@ const config = {
   },
   include: {
     I: './steps_file.js',
-    index: './pages/index.js'
+    idPage: './pages/idPage.js',
   },
   bootstrap: null,
   mocha: {},
   name: 'codeceptjs',
   plugins: {
-
+    screenshotOnFail: {
+      enabled: true,
+    },
   },
 
 };
