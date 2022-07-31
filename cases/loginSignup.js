@@ -8,5 +8,4 @@ Scenario('login Book store', ({I, idPage}) => {
     idPage.inputUserName("Bollywood")
     idPage.inputPassword("!VF8FDgkMn#EJb$")
     idPage.checkLogin()
-
 })

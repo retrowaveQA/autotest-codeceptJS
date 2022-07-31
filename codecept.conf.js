@@ -1,4 +1,3 @@
-const { setHeadlessWhen } = require('@codeceptjs/configure');
 
 const standDomain = 'https://demoqa.com/'
 
